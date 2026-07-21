@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Setynic - Agence Immobilière</title>
+  <link rel="shortcut icon" href="c:\Users\ADNCG\Downloads\logo.png" type="image/x-icon">
+  <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <!-- HEADER -->
+<header class="header">
+  <div class="container nav-wrapper">
+      <span style="display: flex;"><a href="#accueil" style="color: gold;">
+            <svg style="margin-top: 9px;" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              class="lucide lucide-building2-icon lucide-building-2">
+              <path d="M10 12h4" />
+              <path d="M10 8h4" />
+              <path d="M14 21v-3a2 2 0 0 0-4 0v3" />
+              <path d="M6 10H4a2 2 0 0 0-2 2v7a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-2" />
+              <path d="M6 21V5a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v16" />
+            </svg></a>
+    <div class="logo">Setynic</div></span>
+    <button class="burger" id="burger">&#9776;</button>
+    <nav class="nav" id="nav">
+      <a href="#accueil">Accueil</a>
+      <a href="#biens">Nos biens</a>
+      <a href="#services">Services</a>
+      <a href="#agence">L'agence</a>
+      <a href="#avis">Avis clients</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a href="#estimation" class="btn btn-primary nav-btn">Estimer mon bien</a>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero" id="accueil">
+  <div class="container hero-content">
+    <h1>Trouvez<br> votre <span class="highlight">chez-<br>vous</span></h1>
+    <p;">L'agence immobilière qui vous accompagne dans chaque <br>étape — achat, vente, location. Plus de 200 biens disponibles <br>dans la métropole.</p>
+    <div class="hero-buttons">
+      <a href="#biens" class="btn btn-primary">Voir nos biens</a>
+      <a href="#estimation" class="btn btn-outline">Estimer gratuitement</a>
+    </div>
+
+    <div class="stats">
+      <div class="stat">
+        <h2>200+</h2>
+        <p>Biens en ligne</p>
+      </div>
+      <div class="stat">
+        <h2>15</h2>
+        <p>Ans d'expérience</p>
+      </div>
+      <div class="stat">
+        <h2>98%</h2>
+        <p>Clients satisfaits</p>
+      </div>
+    </div>
+
+    <div class="search-box";>
+      <select>
+        <option>Type de bien
+          <option>Appartement</option>
+          <option>Maison</option>
+          <option>Studio</option>
+          <option>Villa</option></option>
+      </select>
+      <select>
+        <option>Localisation
+          <option>Aix-en-Provence</option>
+          <option>Éguilles</option>
+          <option>Marseille</option>
+          <option>Lyon</option>
+          <option>Paris</option>
+          <option>Berlin</option>
+          <option>New York</option></option>
+      </select>
+      <select>
+        <option>Budget max
+          <option>100 000 €</option>
+          <option>200 000 €</option>
+          <option>300 000 €</option>
+          <option>400 000 €</option>
+          <option>1000 000 €+</option></option>
+      </select>
+      <button class="btn btn-primary">Rechercher</button>
+    </div>
+  </div>
+</section>
+
+<!-- NOS BIENS -->
+<section class="properties" id="biens">
+  <div class="container">
+    <p class="tag">Nos biens</p>
+    <h2 class="section-title">Sélection de biens d'exception</h2>
+
+    <div class="property-grid">
+      <div class="property-card">
+        <div class="property-img"></div>
+        <span class="badge">Appartement</span>
+        <h3>T3 Centre-ville Aix-en-Provence</h3>
+        <p class="price">385 000 €</p>
+        <p class="details">72 m² • 3 pièces • 2 chambres</p>
+        <p class="location">📍 Aix-en-Provence</p>
+      </div>
+
+      <div class="property-card">
+        <div class="property-img"></div>
+        <span class="badge">Villa</span>
+        <h3>Villa 5 pièces avec piscine</h3>
+        <p class="price">890 000 €</p>
+        <p class="details">165 m² • 5 pièces • 4 chambres</p>
+        <p class="location">📍 Éguilles</p>
+      </div>
+
+      <div class="property-card">
+        <div class="property-img"></div>
+        <span class="badge">Appartement</span>
+        <h3>Studio rénové Cours Mirabeau</h3>
+        <p class="price">175 000 €</p>
+        <p class="details">28 m² • 1 pièce • Studio</p>
+        <p class="location">📍 Aix-en-Provence</p>
+      </div>
+    </div>
+
+    <div class="center-btn">
+      <a href="#" class="btn btn-primary">Voir tous nos biens</a>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section class="services" id="services">
+  <div class="container">
+    <p class="tag">Nos services</p>
+    <h2 class="section-title">Un accompagnement sur mesure</h2>
+    <p class="section-subtitle">Setynic vous accompagne à chaque étape de votre projet immobilier avec expertise et transparence.</p>
+
+    <div class="services-grid">
+      <div class="service-card">
+        <div class="icon">🏠</div>
+        <h3>Achat immobilier</h3>
+        <p>Recherche personnalisée, visites, négociation et accompagnement jusqu'à la signature chez le notaire.</p>
+      </div>
+      <div class="service-card">
+        <div class="icon">💰</div>
+        <h3>Vente de bien</h3>
+        <p>Estimation gratuite, photos professionnelles, diffusion multi supports et suivi complet de votre vente.</p>
+      </div>
+      <div class="service-card">
+        <div class="icon">🔑</div>
+        <h3>Gestion locative</h3>
+        <p>Recherche de locataires, rédaction des baux, gestion des loyers et des interventions techniques.</p>
+      </div>
+      <div class="service-card">
+        <div class="icon">📊</div>
+        <h3>Estimation gratuite</h3>
+        <p>Évaluation précise de votre bien basée sur le marché local et nos données exclusives du secteur.</p>
+      </div>
+      <div class="service-card">
+        <div class="icon">⚖️</div>
+        <h3>Conseil juridique</h3>
+        <p>Analyse des documents, vérification des diagnostics et accompagnement administratif complet.</p>
+      </div>
+      <div class="service-card">
+        <div class="icon">📈</div>
+        <h3>Investissement locatif</h3>
+        <p>Identification des opportunités, calcul de rentabilité et stratégie patrimoniale adaptée à vos objectifs.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- AGENCE -->
+<section class="agency" id="agence">
+  <div class="container agency-wrapper">
+    <div class="agency-img"></div>
+    <div class="agency-text">
+      <p class="tag" style="color: gold; text-align: none;">L'agence</p>
+      <h2>Une équipe passionnée à votre service</h2>
+      <p>Fondée en 2010 et implantée au cœur d'Éguilles, Setynic Immobilier est une agence à taille humaine qui allie connaissance fine du marché local et outils digitaux performants. Notre mission : rendre chaque projet immobilier simple, transparent et réussi.</p>
+      <ul class="check-list">
+        <li>✔ Transparence totale sur les honoraires</li>
+        <li>✔ Connaissance experte du marché aixois</li>
+        <li>✔ Accompagnement personnalisé de A à Z</li>
+        <li>✔ Outils digitaux : visites virtuelles, estimation IA</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="container">
+    <h3 class="team-title">Notre équipe</h3>
+    <div class="team-grid">
+      <div class="team-card">
+        <div class="avatar"><svg style="color: 666666;" xmlns="http://www.w3.org/2000/svg" width="160" height="160"  viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-user-round-icon lucide-user-round"><circle cx="12" cy="8" r="5"/><path d="M20 21a8 8 0 0 0-16 0"/></svg></div>
+        <h4>Affognon Annick</h4>
+        <p>Directrice d'agence</p>
+      </div>
+      <div class="team-card">
+        <div class="avatar"><svg style="color: 666666;" xmlns="http://www.w3.org/2000/svg" width="160" height="160" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-user-round-icon lucide-user-round"><circle cx="12" cy="8" r="5"/><path d="M20 21a8 8 0 0 0-16 0"/></svg></div>
+        <h4>Alozouhoin Kossi Nicolas</h4>
+        <p>Responsable commercial</p>
+      </div>
+      <div class="team-card">
+        <div class="avatar"><svg style="color: 666666;" xmlns="http://www.w3.org/2000/svg" width="160" height="160" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-user-round-icon lucide-user-round"><circle cx="12" cy="8" r="5"/><path d="M20 21a8 8 0 0 0-16 0"/></svg></div>
+        <h4>Davon Kokou Yves</h4>
+        <p>Conseillère en transaction</p>
+      </div>
+      <div class="team-card">
+        <div class="avatar"><svg style="color: 666666;" xmlns="http://www.w3.org/2000/svg" width="160" height="160" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-user-round-icon lucide-user-round"><circle cx="12" cy="8" r="5"/><path d="M20 21a8 8 0 0 0-16 0"/></svg></div>
+        <h4>Fabre Lucas</h4>
+        <p>Chargé de gestion locative</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ESTIMATION -->
+<section class="estimation" id="estimation">
+  <div class="container estimation-wrapper">
+    <div class="estimation-text">
+      <p class="tag" style="color: gold;">Estimation gratuite</p>
+      <h2 style="color: #ccc;">Combien vaut votre bien ?</h2>
+      <p style="color: #b9b8b8;">Recevez une estimation précise et détaillée de votre bien en moins de 48h, réalisée par nos experts du marché local.</p>
+      <ul class="check-list" style="color: #8b8b8b;">
+        <li>✔ Réponse sous 48h</li>
+        <li>✔ 100% gratuit, sans engagement</li>
+        <li>✔ Basé sur les données du marché local</li>
+      </ul>
+    </div>
+
+    <form class="estimation-form" style="color: #fff;">
+      <h3>Demandez votre estimation</h3>
+      <input style="background-color: #0d1b3d;" type="text" placeholder="Nom complet" required>
+      <input style="background-color: #0d1b3d;" type="email" placeholder="Adresse e-mail" required>
+      <input style="background-color: #0d1b3d;" type="tel" placeholder="Téléphone" required>
+      <input style="background-color: #0d1b3d;" type="text" placeholder="Adresse du bien" required>
+      <select style="background-color: #0d1b3d;">
+        <option>Type de bien</option>
+        <option>Appartement</option>
+        <option>Maison</option>
+        <option>Studio</option>
+      </select>
+      <input style="background-color: #0d1b3d;" type="number" placeholder="Surface (m²)">
+      <button type="submit" class="btn btn-primary full-width">Demander mon estimation</button>
+    </form>
+  </div>
+</section>
+
+<!-- AVIS CLIENTS -->
+<section class="testimonials" id="avis">
+  <div class="container">
+    <p class="tag">Avis clients</p>
+    <h2 class="section-title" style="color: #fff;">Ils nous font confiance</h2>
+
+    <div class="testimonial-grid">
+      <div class="testimonial-card">
+        <p class="stars" style="color: gold;">★★★★★</p>
+        <p>« Une équipe réactive et à l'écoute. Tiphaine nous a accompagnés du début à la fin pour l'achat de notre appartement à Aix. Je recommande vivement ! »</p>
+        <h4>Marie-Claire D.</h4>
+        <span>Acheteuse — Aix-en-Provence</span>
+      </div>
+      <div class="testimonial-card">
+        <p class="stars" style="color: gold;">★★★★★</p>
+        <p>« Brandon a vendu notre maison en seulement 3 semaines, au prix souhaité. Professionnalisme exemplaire, photos magnifiques, suivi irréprochable. »</p>
+        <h4>Philippe & Nathalie R.</h4>
+        <span>Vendeurs — Éguilles</span>
+      </div>
+      <div class="testimonial-card">
+        <p class="stars" style="color: gold;">★★★★★</p>
+        <p>« Premier investissement locatif et j'étais perdu. L'équipe m'a guidé avec patience, des calculs de rentabilité clairs et un bien trouvé en un mois. »</p>
+        <h4>Julien M.</h4>
+        <span>Investisseur — Marseille</span>
+      </div>
+    </div>
+
+    <p class="rating"><span style="font-size: 25px; color: gold;">⭐ 4.9/5</span> — 127 avis Google</p>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact" id="contact">
+  <div class="container">
+    <p class="tag">Contact</p>
+    <h2 class="section-title">Parlons de votre projet</h2>
+
+    <div class="contact-wrapper">
+      <div class="contact-info">
+        <p>📍 115, rue Tourmaline, 13510 Éguilles</p>
+        <p>📞 92 62 19 33 / 97 20 97 17</p>
+        <p>✉️ setynic@wecomm.fr</p>
+        <p>🕒 Lun-Ven : 9h00-18h30 / Sam : 9h00-12h30</p>
+        <div class="map-placeholder">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.90699258336!2d1.2478548999999923!3d6.1431942000000035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1023e1ad749cd76b%3A0x3436f66a7012a803!2sAppartement%20meubl%C3%A9%20Lom%C3%A9%20DZIDZOFE!5e0!3m2!1sfr!2stg!4v1783865929858!5m2!1sfr!2stg" width="618" height="200"  style="border:0; border-radius: 12px;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe></div>
+      </div>
+
+      <form class="contact-form">
+        <input style="background: #0d1b3d" type="text" placeholder="Nom complet" required>
+        <input style="background: #0d1b3d" type="email" placeholder="Adresse e-mail" required>
+        <input style="background: #0d1b3d" type="tel" placeholder="Téléphone">
+        <input style="background: #0d1b3d" type="text" placeholder="Objet">
+        <textarea style="background: #0d1b3d" placeholder="Votre message..." rows="5"></textarea>
+        <button type="submit" class="btn btn-primary full-width">Envoyer le message</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container footer-grid">
+    <div>
+      <h3>Setynic</h3>
+      <p>Votre agence immobilière de confiance à Éguilles et dans le Pays d'Aix. Achat, vente, location et gestion locative.</p>
+    </div>
+    <div>
+      <h4>Navigation</h4>
+      <a href="#accueil">Accueil</a>
+      <a href="#biens">Nos biens</a>
+      <a href="#services">Services</a>
+      <a href="#agence">L'agence</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <div>
+      <h4>Services</h4>
+      <a href="#">Achat immobilier</a>
+      <a href="#">Vente de bien</a>
+      <a href="#">Gestion locative</a>
+      <a href="#">Estimation gratuite</a>
+      <a href="#">Investissement</a>
+    </div>
+    <div>
+      <h4>Contact</h4>
+      <p>115, rue Tourmaline, 13510 Éguilles</p>
+      <p>92 62 19 33 / 97 20 97 17</p>
+      <p>setynic@wecomm.fr</p>
+      <p>Lun-Ven 9h-18h30</p>
+    </div>
+  </div>
+  <div class="footer-bottom" style="display: flex; gap: 250px;">
+    <p><span>© 2025 Setynic Immobilier — Tous droits réservés</span></p>
+    <p><span>Site conçu par <span style="color: gold;">ADN</span> — Agence digitale</span></p>
+     <span style="display: flex;"><a href="#">Mentions légales</a> | <a href="#">Politique de confidentialité</a></span>
+    </div>
+</footer>
+
+<script>
+  document.getElementById('burger').addEventListener('click', function() {
+    document.getElementById('nav').classList.toggle('active');
+  });
+</script>
+</body>
+</html>
